@@ -1,0 +1,26 @@
+studentId,name,email,age,gender,department,semester,cgpa,overallAttendance,subjects_scores,lms_logins,tuition_paid,payment_delays,scholarship,assignments_submitted,total_assignments,forum_posts,content_views,quiz_attempts,financial_aid,part_time_job
+S001,John Smith,john.smith@email.com,20,Male,Computer Science,3,3.2,65,"Programming:75,Mathematics:68,Database:82,Networks:71,OperatingSystems:64",3,true,0,false,6,10,2,45,4,false,true
+S002,Emma Wilson,emma.w@email.com,21,Female,Computer Science,4,3.8,92,"Programming:95,Mathematics:88,Database:91,Networks:89,AI:94,WebDev:92",12,true,0,true,10,10,15,120,12,false,false
+S003,Michael Brown,michael.b@email.com,19,Male,Information Technology,2,2.1,45,"Programming:45,Mathematics:38,WebDev:52,Database:41,Networks:35",1,false,2,false,2,10,1,15,2,true,true
+S004,Sarah Davis,sarah.d@email.com,22,Female,Data Science,6,3.6,88,"Statistics:92,Python:89,ML:94,Database:86,BigData:91,Visualization:88",15,true,0,true,9,10,12,95,10,false,false
+S005,James Wilson,james.w@email.com,20,Male,Computer Science,3,2.8,72,"Programming:78,Mathematics:55,Database:71,Networks:68,Algorithms:62",4,true,1,false,5,10,3,38,3,false,true
+S006,Lisa Anderson,lisa.a@email.com,21,Female,Information Technology,4,3.4,85,"Programming:82,WebDev:88,Database:79,Networks:76,Security:81",8,true,0,true,8,10,7,67,6,false,false
+S007,Robert Taylor,robert.t@email.com,20,Male,Data Science,3,2.3,58,"Statistics:45,Python:62,ML:51,Database:48,R:42",2,false,3,false,3,10,1,22,2,true,true
+S008,Maria Garcia,maria.g@email.com,22,Female,Computer Science,5,3.9,95,"Programming:98,Mathematics:92,AI:96,Algorithms:94,CompilerDesign:90",20,true,0,true,10,10,25,150,15,false,false
+S009,David Lee,david.l@email.com,19,Male,Information Technology,2,2.5,62,"Programming:58,WebDev:65,Database:52,Networks:48,Multimedia:55",3,true,1,false,4,10,2,28,2,true,true
+S010,Anna Kim,anna.k@email.com,21,Female,Data Science,4,3.7,90,"Statistics:94,Python:91,ML:89,Database:88,Visualization:92,BigData:87",14,true,0,true,9,10,10,85,9,false,false
+S011,Thomas Brown,thomas.b@email.com,20,Male,Computer Science,3,2.9,68,"Programming:72,Mathematics:65,Database:70,Networks:68,DiscreteMath:60",4,true,0,false,6,10,3,42,4,false,true
+S012,Jennifer Lee,jennifer.l@email.com,21,Female,Information Technology,4,3.3,82,"Programming:80,WebDev:85,Database:78,Security:75,Cloud:70",7,true,0,true,7,10,5,58,5,false,false
+S013,William Chen,william.c@email.com,20,Male,Data Science,3,2.7,71,"Statistics:68,Python:73,ML:65,Database:70,SQL:75",5,true,0,false,6,10,4,48,4,true,false
+S014,Patricia Martinez,patricia.m@email.com,22,Female,Computer Science,5,3.5,87,"Programming:89,Mathematics:84,AI:86,Algorithms:85,DataStructures:88",11,true,0,true,9,10,8,78,8,false,false
+S015,Christopher Wong,chris.w@email.com,19,Male,Information Technology,2,2.0,41,"Programming:42,WebDev:38,Database:35,Networks:40,ITFundamentals:45",1,false,2,false,2,10,0,12,1,true,true
+S016,Jessica Miller,jessica.m@email.com,21,Female,Data Science,4,3.8,93,"Statistics:96,Python:94,ML:92,Database:90,R:89",16,true,0,true,10,10,14,105,11,false,false
+S017,Daniel Kim,daniel.k@email.com,20,Male,Computer Science,3,3.0,75,"Programming:78,Mathematics:70,Database:76,Networks:72,OS:74",6,true,0,false,7,10,4,52,5,false,true
+S018,Amanda Taylor,amanda.t@email.com,22,Female,Information Technology,5,3.2,80,"Programming:79,WebDev:84,Database:76,Security:77,Networks:73",7,true,0,true,8,10,6,62,6,false,false
+S019,Kevin Park,kevin.p@email.com,20,Male,Data Science,3,2.4,55,"Statistics:52,Python:58,ML:48,Database:51,R:45",2,false,1,false,4,10,1,25,2,true,true
+S020,Rachel Green,rachel.g@email.com,21,Female,Computer Science,4,3.6,86,"Programming:88,Mathematics:82,Database:85,Networks:80,AI:87",10,true,0,true,9,10,9,82,8,false,false
+S021,Brian Johnson,brian.j@email.com,20,Male,Information Technology,3,2.6,64,"Programming:60,WebDev:68,Database:58,Networks:55,Security:62",3,true,1,false,5,10,2,35,3,true,true
+S022,Michelle Wu,michelle.w@email.com,22,Female,Data Science,6,3.9,94,"Statistics:98,Python:95,ML:96,BigData:93,DeepLearning:91",18,true,0,true,10,10,16,120,13,false,false
+S023,Richard Taylor,richard.t@email.com,19,Male,Computer Science,2,2.2,48,"Programming:50,Mathematics:44,Database:46,Networks:42",1,false,2,false,3,10,1,18,1,true,true
+S024,Elizabeth Chen,elizabeth.c@email.com,21,Female,Information Technology,4,3.5,84,"Programming:83,WebDev:87,Database:81,Security:80,Cloud:79",9,true,0,true,8,10,7,72,7,false,false
+S025,Joseph Lee,joseph.l@email.com,20,Male,Data Science,3,3.1,77,"Statistics:75,Python:80,ML:72,Database:78,SQL:81",7,true,0,false,7,10,5,55,5,false,true
