@@ -14,10 +14,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Root route (ADD THIS)
+app.get("/", (req, res) => {
+  res.send("AI Student Retention Backend is Running 🚀");
+});
+
 // Routes
 app.use('/api/students', require('./routes/students'));
 app.use('/api/ml', require('./routes/ml'));
-// Add auth routes
 app.use('/api/auth', require('./routes/auth'));
 
 // Error handling middleware
