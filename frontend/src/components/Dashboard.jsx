@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { mlAPI } from "../services/api";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import {
@@ -87,15 +88,32 @@ const Dashboard = ({ students }) => {
   };
 
   const fetchRiskStats = async () => {
-    try {
-      const response = await axios.get('http://localhost:5000/api/students/stats/risk');
-      if (response.data) {
-        // Update with server stats
-      }
-    } catch (error) {
-      console.error('Failed to fetch risk stats:', error);
+  try {
+    // 🔹 1. Get backend stats (replace localhost with deployed backend if needed)
+    const response = await axios.get(
+      `${import.meta.env.VITE_BACKEND_URL}/api/students/stats/risk`
+    );
+
+    // 🔹 2. OPTIONAL: Call AI service (your ML model)
+    const aiResponse = await mlAPI.predictRiskDirect({
+      cgpa: 3.0,
+      overallAttendance: 80
+    });
+
+    console.log("AI Prediction:", aiResponse.data);
+
+    // 🔹 3. Update UI if backend returns data
+    if (response.data) {
+      setStats(prev => ({
+        ...prev,
+        ...response.data
+      }));
     }
-  };
+
+  } catch (error) {
+    console.error("Failed to fetch risk stats:", error);
+  }
+};
 
   const COLORS = ['#FF6B6B', '#FFD93D', '#6BCB77', '#4D96FF'];
 
