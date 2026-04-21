@@ -403,5 +403,20 @@ def adaptive_learning_path():
 def health_check():
     return jsonify({"status": "healthy", "service": "ML Service Running"})
 
+
+@app.route("/")
+def home():
+    return jsonify({
+        "message": "AI Student Retention API is running",
+        "status": "active",
+        "endpoints": [
+            "/health",
+            "/predict-risk",
+            "/recommend-career",
+            "/personalized-advice",
+            "/adaptive-learning"
+        ]
+    })
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
